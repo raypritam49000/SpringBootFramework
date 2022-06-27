@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBootMVCBootstrapDemo"/>
+<aop-project name="SpringBootRestDataDemo"/>
+<aop-project name="SpringBootHibernateDemo"/>
+<aop-project name="SpringBootMongodbDemo"/>
+<aop-project name="SpringBootValidationDemo"/>
+<aop-project name="SpringSecurityDemo3"/>
+<aop-project name="SpringBootRestAPISwaggerDemo"/>
+<aop-project name="ThymeleafPracticeDemo"/>
+<aop-project name="SpringBootSecurityDemo1"/>
+<aop-project name="SpringBootJPAHibernateDemo"/>
+<aop-project name="SpringBootMongodbTemplateDemo"/>
+<aop-project name="SpringSecurityJwtDemo5"/>
+<aop-project name="SpringBootNestedRestDataDemo"/>
+<aop-project name="SpringSecurityDemo4"/>
+<aop-project name="StringBootWebYoutube"/>
+<aop-project name="SpringBootJPARepositoryDemo"/>
+<aop-project name="SpringBootValidationExample"/>
+<aop-project name="SpringBootJPARestBook"/>
+<aop-project name="SpringBootSecurityDemo2"/>
+<aop-project name="SpringBootJerseyWebServicesDemo"/>
+<aop-project name="SpringBootHibernateExample"/>
+<aop-project name="SpringSecurityDemo1"/>
+<aop-project name="SpringBootMVCCrudDemo"/>
+<aop-project name="SpringBootSecurityDemo3"/>
+<aop-project name="SpringBootJDBCDemo"/>
+<aop-project name="SpringBootCrudRepositoryProject"/>
+<aop-project name="SpringBootBootStrapDemo"/>
+<aop-project name="SpringBootFileUploadigDemo"/>
+<aop-project name="SpringSecurityDemo2"/>
+<aop-project name="SpringBootMongoDbRepositoryDemo"/>
+<aop-project name="SpringBootRestOpenAPI"/>
+<aop-project name="SpringBootMVCProject"/>
+<aop-project name="SpringBootSecurityDemo4"/>
+<aop-project name="SpringBootRestBook"/>
+</aop-reference-model>

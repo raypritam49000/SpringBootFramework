@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<section>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 offset-md-2">
+
+                <div class="my-card mt-2">
+
+                    <div class="container text-center">
+                        <img style="width: 80px" th:src="@{/image/membership.jpg}" />
+                    </div>
+
+                    <h1 class="text-center">Register Here !!</h1>
+
+                    <form action="#"  method="post" >
+
+
+                        <div class="form-group">
+                            <label for="name">Enter Your Name</label>
+                            <input type="text" name="name"
+                                   class="form-control"
+                                   id="name" aria-describedby="emailHelp"
+                                   placeholder="Enter Here"
+                                   required="true"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Enter Your Email</label>
+                            <input type="email"
+                                   name="email" class="form-control"
+                                   id="email" aria-describedby="emailHelp"
+                                   placeholder="Enter Here" required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Enter Your Password</label>
+                            <input type="password" name="password"
+                                   class="form-control" id="password"
+                                   placeholder="Enter Here" required="true"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mobile">Enter Your MobileNo</label>
+                            <input type="tel" name="mobile"
+                                   class="form-control" id="mobile"
+                                   placeholder="Enter Here" required="true"
+                            >
+                        </div>
+
+
+                        <div class="form-group form-check text-center">
+                            <input type="checkbox" class="form-check-input" id="agreement">
+                            <label class="form-check-label" for="agreement" name="agreement">Accepts terms and conditions</label>
+                        </div>
+
+                        <div class="container text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-danger">Reset</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
