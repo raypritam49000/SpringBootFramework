@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Services Page</title>
+</head>
+<body>
+<h1>This are Services provides by Learn Code with Durgesh</h1>
+<!-- Going to bring footer here -->
+<footer id="host-Tag" th:replace="footer::footer1(${title},${subtitle})"></footer>
+<footer id="host-Tag" th:insert="footer::footer2"></footer>
+<footer id="host-Tag" th:include="footer::footer3"></footer>
+
+
+</body>
+</html>

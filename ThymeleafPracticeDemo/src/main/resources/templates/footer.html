@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<footer id="footer-Tag" th:fragment="footer1(title,substitle)">
+  <div class="container">
+   <h1 th:text="${title}"></h1>
+   <h1 th:text="${substitle}"></h1>
+   <h1>Learn Code With Durgesh</h1>
+   <h1>We are learning Spring Boot </h1>
+  </div>
+</footer>
+
+<footer id="footer-Tag" th:fragment="footer2">
+  <div class="container">
+   <h1>Learn Code With Surya Tripathi</h1>
+   <h1>We are learning Spring Boot </h1>
+  </div>
+</footer>
+
+<footer id="footer-Tag" th:fragment="footer3">
+  <div class="container">
+   <h1>Learn Code With SahoSoft Software Solution</h1>
+   <h1>We are learning Angular11 </h1>
+  </div>
+</footer>
+</body>
+</html>
